@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchItems = async () => {
-      const result = await axios(`http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=6865cb5acba8f25f651d919c1b524a65
+      const result = await axios(`
       `)
       console.log(result.data)
       setItems(result.data)
